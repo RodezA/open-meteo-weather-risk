@@ -91,32 +91,6 @@ st.set_page_config(
 )
 
 
-def check_password() -> bool:
-    if st.session_state.get("authenticated"):
-        return True
-
-    expected = st.secrets.get("app_password")
-    if not expected:
-        st.error("App password is not configured. Set `app_password` in Streamlit secrets.")
-        st.stop()
-
-    st.title("Construction Site Weather Risk")
-    st.caption("Enter password to continue.")
-    with st.form("login"):
-        pwd = st.text_input("Password", type="password")
-        submitted = st.form_submit_button("Sign in")
-    if submitted:
-        if pwd == expected:
-            st.session_state.authenticated = True
-            st.rerun()
-        else:
-            st.error("Incorrect password.")
-    return False
-
-
-if not check_password():
-    st.stop()
-
 st.title("Construction Site Weather Risk")
 st.caption("Hourly work-stoppage risk powered by Open-Meteo · OSHA 1926.1417 / 1910.333")
 
