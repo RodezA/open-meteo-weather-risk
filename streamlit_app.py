@@ -114,7 +114,7 @@ PRESETS = {
 }
 
 with st.sidebar:
-    st.image("open_meteo_logo.png", width=160)
+    st.image("open_meteo_logo.png", width=240)
     st.header("Site Location")
 
     st.markdown(
