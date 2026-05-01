@@ -85,7 +85,7 @@ def render_activity_pills(activities: list) -> str:
 # ── Page config ──────────────────────────────────────────────────────────────
 
 st.set_page_config(
-    page_title="Simplesense — Site Risk",
+    page_title="Open-Meteo — Site Risk",
     page_icon="🏗️",
     layout="wide",
 )
@@ -114,7 +114,7 @@ PRESETS = {
 }
 
 with st.sidebar:
-    st.image("open_meteo_logo.png", width=240)
+    st.image("open_meteo_logo.png", width=300)
     st.header("Site Location")
 
     st.markdown(
