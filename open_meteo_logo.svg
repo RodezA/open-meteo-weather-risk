@@ -1,23 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" width="360" height="72">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 60" width="300" height="60">
   <!-- Sun rays and circle -->
-  <g transform="translate(36,36)">
-    <!-- Sun glow circle -->
-    <circle cx="-4" cy="-6" r="11" fill="#FFD54F"/>
-    <!-- Sun rays -->
-    <line x1="-4" y1="-19" x2="-4" y2="-23" stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="6" y1="-15" x2="9" y2="-18" stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="10" y1="-6" x2="14" y2="-6" stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="-14" y1="-6" x2="-18" y2="-6" stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round"/>
-    <line x1="-14" y1="-15" x2="-17" y2="-18" stroke="#FFD54F" stroke-width="2.5" stroke-linecap="round"/>
+  <g transform="translate(32,30)">
+    <circle cx="-3" cy="-5" r="12" fill="#FFD54F"/>
+    <line x1="-3" y1="-19" x2="-3" y2="-24" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="7" y1="-14" x2="11" y2="-18" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="12" y1="-5" x2="17" y2="-5" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-18" y1="-5" x2="-23" y2="-5" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-16" y1="-14" x2="-20" y2="-18" stroke="#FFD54F" stroke-width="3" stroke-linecap="round"/>
     <!-- Cloud body -->
-    <path d="M-18,8 Q-22,-2 -13,-4 Q-12,-14 0,-12 Q8,-12 10,-4 Q16,-6 18,2 Q20,12 12,14 L-14,14 Q-22,14 -18,8 Z"
+    <path d="M-20,9 Q-25,0 -14,-3 Q-13,-15 1,-13 Q10,-13 12,-3 Q19,-5 20,4 Q22,14 13,16 L-16,16 Q-25,16 -20,9 Z"
           fill="#29B6F6"/>
   </g>
   <!-- "Open-Meteo" text -->
-  <text x="82" y="46"
+  <text x="70" y="40"
         font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif"
-        font-size="30"
-        font-weight="600"
+        font-size="34"
+        font-weight="700"
         fill="#1565C0"
         letter-spacing="-0.5">Open-Meteo</text>
 </svg>
