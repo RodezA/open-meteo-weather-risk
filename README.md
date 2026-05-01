@@ -2,6 +2,10 @@
 
 Transforms Open-Meteo weather forecasts into hourly **work-stoppage risk assessments** for construction sites. Outputs composite risk scores and per-activity restrictions grounded in OSHA thresholds (1926.1417 crane ops, 1910.333 electrical work).
 
+## Live Demo
+
+[https://open-meteo-weather-risk.streamlit.app/](https://open-meteo-weather-risk.streamlit.app/)
+
 ## Quickstart
 
 ```bash
