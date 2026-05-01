@@ -474,7 +474,7 @@ txt(sl, "A supervisor reads this and still has to\nanswer: 'Can I run the crane?
 
 # Right — system output
 box(sl, 6.9, 2.0, 5.8, 4.8, bg_color=RGBColor(0x1a,0x2a,0x1a), border_color=RGBColor(0x22,0x55,0x22))
-txt(sl, "✓  SIMPLESENSE OUTPUT", 7.1, 2.1, 5.4, 0.4, size=Pt(10), bold=True, color=GREEN)
+txt(sl, "✓  OPEN-METEO OUTPUT", 7.1, 2.1, 5.4, 0.4, size=Pt(10), bold=True, color=GREEN)
 txt(sl, "Monday 14:00", 7.15, 2.6, 5.3, 0.4, size=Pt(12), bold=True, color=WHITE)
 
 b = box(sl, 7.15, 3.08, 2.3, 0.45, bg_color=CAUTION_LT, border_color=CAUTION_LT)
