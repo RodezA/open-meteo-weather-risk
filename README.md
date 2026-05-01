@@ -4,7 +4,7 @@ Transforms Open-Meteo weather forecasts into hourly **work-stoppage risk assessm
 
 ## Live Demo
 
-[https://open-meteo-weather-risk.streamlit.app/](https://open-meteo-weather-risk.streamlit.app/)
+[https://open-meteo-weather-risk-jbgvmepvegrd7jtkk23nrz.streamlit.app/](https://open-meteo-weather-risk-jbgvmepvegrd7jtkk23nrz.streamlit.app/)
 
 ## Quickstart
 
