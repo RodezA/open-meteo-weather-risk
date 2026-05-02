@@ -1,6 +1,6 @@
 # Open-Meteo — Construction Site Risk
 
-Transforms Open-Meteo weather forecasts into hourly **work-stoppage risk assessments** for construction sites. Outputs composite risk scores and per-activity restrictions grounded in OSHA thresholds (1926.1417 crane ops, 1910.333 electrical work).
+A construction site weather risk engine that translates live forecast data into OSHA-compliant work-stoppage decisions — with a live deployed demo, async Python architecture, regulatory-grounded thresholds, and a pure-logic risk engine that's fully tested and framework-agnostic. It shows domain depth, not just coding ability.
 
 ## Live Demo
 
