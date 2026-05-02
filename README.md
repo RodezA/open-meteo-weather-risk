@@ -4,7 +4,7 @@ A construction site weather risk engine that translates live forecast data into 
 
 ## Live Demo
 
-[https://open-meteo-weather-risk-jbgvmepvegrd7jtkk23nrz.streamlit.app/](https://open-meteo-weather-risk-jbgvmepvegrd7jtkk23nrz.streamlit.app/)
+[https://open-meteo-weather-risk-5drmnacsuqjxhwxu9apzac.streamlit.app/](https://open-meteo-weather-risk-5drmnacsuqjxhwxu9apzac.streamlit.app/)
 
 ## Why Actionable Data Matters
 
