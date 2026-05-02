@@ -6,6 +6,18 @@ A construction site weather risk engine that translates live forecast data into 
 
 [https://open-meteo-weather-risk-jbgvmepvegrd7jtkk23nrz.streamlit.app/](https://open-meteo-weather-risk-jbgvmepvegrd7jtkk23nrz.streamlit.app/)
 
+## Why Actionable Data Matters
+
+Raw data doesn't make decisions — people do. But people operating under time pressure, regulatory exposure, or incomplete context need data that's already been interpreted for them. The gap between "here is a number" and "here is what to do" is where most data systems fall short.
+
+This project is one example of closing that gap: a weather forecast is interesting; a work-stoppage decision tied to specific OSHA thresholds is useful. The same principle applies across domains:
+
+- **Healthcare**: A patient's vitals feed becomes actionable when it surfaces an escalation flag before a nurse has to calculate it manually.
+- **Logistics**: A shipment tracking stream becomes actionable when it predicts a delay and re-routes before a customer asks.
+- **Finance**: A market data feed becomes actionable when it triggers a position review based on pre-defined risk parameters, not a dashboard someone has to monitor.
+
+The pattern is consistent: take a domain with real consequences, understand the decision logic that experts already use, encode it explicitly, and put it in the path of the person who needs to act. The technology is secondary. The hard part is knowing the domain well enough to know what the right decision even is.
+
 ## Quickstart
 
 ```bash
@@ -67,18 +79,6 @@ streamlit_app.py         # Entry point — wires client, engine, and UI
 ```bash
 python -m pytest tests/ -v
 ```
-
-## Why Actionable Data Matters
-
-Raw data doesn't make decisions — people do. But people operating under time pressure, regulatory exposure, or incomplete context need data that's already been interpreted for them. The gap between "here is a number" and "here is what to do" is where most data systems fall short.
-
-This project is one example of closing that gap: a weather forecast is interesting; a work-stoppage decision tied to specific OSHA thresholds is useful. The same principle applies across domains:
-
-- **Healthcare**: A patient's vitals feed becomes actionable when it surfaces an escalation flag before a nurse has to calculate it manually.
-- **Logistics**: A shipment tracking stream becomes actionable when it predicts a delay and re-routes before a customer asks.
-- **Finance**: A market data feed becomes actionable when it triggers a position review based on pre-defined risk parameters, not a dashboard someone has to monitor.
-
-The pattern is consistent: take a domain with real consequences, understand the decision logic that experts already use, encode it explicitly, and put it in the path of the person who needs to act. The technology is secondary. The hard part is knowing the domain well enough to know what the right decision even is.
 
 ## Data Source
 
