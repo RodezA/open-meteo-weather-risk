@@ -14,3 +14,4 @@ venv/
 .streamlit/secrets.toml
 open_meteo-architecture.pdf
 open_meteo_presentation.pptx
+.claude/
